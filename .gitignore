@@ -7,3 +7,6 @@ storage
 .npm
 
 packages/*/**
+!packages/*/README.md
+!packages/*/readme.md
+!packages/*/Readme.md
