@@ -37,4 +37,5 @@
     'tab': 'emmet:expand-abbreviation-with-tab'
 
 '.editor:not(.mini)':
+    'ctrl-shift-M': 'markdown-preview:toggle'
     'cmd-alt-/': 'editor:insert-mlc-js'

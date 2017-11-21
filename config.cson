@@ -1,5 +1,6 @@
 "*":
   core:
+    packagesWithKeymapsDisabled: []
     telemetryConsent: "no"
   editor:
     autoIndentOnPaste: false
@@ -8,6 +9,7 @@
     tabLength: 4
   "exception-reporting":
     userId: "9d725d2d-2833-43d1-b6a1-0d328d1cb1a5"
+  "markdown-preview": {}
   "tree-view": {}
   welcome:
     showOnStartup: false
