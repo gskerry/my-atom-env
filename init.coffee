@@ -9,3 +9,8 @@
 # atom.workspace.observeTextEditors (editor) ->
 #   editor.onDidSave ->
 #     console.log "Saved! #{editor.getPath()}"
+
+atom.commands.add 'atom-text-editor',
+    'editor:insert-mlc-js': ->
+        snippetBody = '/*$1*/'
+        atom.packages.activePackages.snippets?.mainModule?.insert snippetBody

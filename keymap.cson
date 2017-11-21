@@ -35,3 +35,6 @@
 # https://gist.github.com/mxstbr/361ddb22057f0a01762240be209321f0
 'atom-text-editor[data-grammar~="jsx"]:not([mini])':
     'tab': 'emmet:expand-abbreviation-with-tab'
+
+'.editor:not(.mini)':
+    'cmd-alt-/': 'editor:insert-mlc-js'
