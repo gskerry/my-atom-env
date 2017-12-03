@@ -39,3 +39,6 @@
 '.editor:not(.mini)':
     'ctrl-shift-M': 'markdown-preview:toggle'
     'cmd-alt-/': 'editor:insert-mlc-js'
+
+'atom-text-editor[data-grammar~="js"]:not([mini])':
+    'ctrl-shift-C': 'git-plus:commit'
